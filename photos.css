@@ -35,8 +35,8 @@ html{
 }
 
 @keyframes lineani {
-    from{transform: scaleX(0);}
-    to{transform: scaleX(1);}
+    from{-webkit-transform: scaleX(0);}
+    to{-webkit-transform: scaleX(1);}
 }
 
 .hd{
