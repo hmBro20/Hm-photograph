@@ -76,8 +76,8 @@ header{
     height: 2px;
     position: fixed;
     animation: lineani linear forwards;
-    animation-timeline:scroll();
-    transform-origin:left;
+    -webkit-animation-timeline:scroll();
+    -webkit-transform-origin: left;
 }
 
 @keyframes lineani {
