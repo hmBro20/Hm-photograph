@@ -9,10 +9,6 @@ body{
     margin: 0px;
 }
 
-img{
-    -webkit-touch-callout: none;
-}
-
 /* Header start */
 
 @font-face  {
@@ -1000,7 +996,7 @@ img {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  pointer-events: none;
+  pointer-events: ;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
