@@ -5,7 +5,9 @@ html{
 body{
     margin: 0px;
 }
-
+img{
+    pointer-events: none;
+}
 
 /* Fonts ------------------------- */
 
