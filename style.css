@@ -9,6 +9,9 @@ body{
     margin: 0px;
 }
 
+img{
+    -webkit-touch-callout: none;
+}
 
 /* Header start */
 
