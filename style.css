@@ -993,6 +993,17 @@ input:focus::placeholder, textarea:hover::placeholder{
     transition-duration: 0.4s;
 }
 
+img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
 @media(max-width:768px){
    .header{
        position: fixed;
