@@ -949,6 +949,11 @@ input:focus::placeholder, textarea:focus::placeholder{
     transition-duration: 0.4s;
 }
 
+h6::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, span::selection, p::selection{
+    color: orangered;
+    background: linear-gradient(90deg, red, blue);
+}
+
 
 @media(width:1140px){
     /* section 2 */
