@@ -52,6 +52,10 @@ body{
     src: url('Rampirodemo-517JG.ttf');
 }
 
+@font-face  {
+    font-family: 'font11';
+    src: url('HappyLucky-gxnZP.ttf');
+}
 
 header{
     height: 70px;
@@ -674,11 +678,8 @@ box-shadow:0px 4px 30px #dfd5ff;
 .ftrsect{
     background-image: url('hd.jpg');
     background-repeat: no-repeat;
-    background-size: 170%;
-    background-position: center bottom;
-    background-attachment: fixed;
+    background-size: 100%;
 }
-
 
 .fts1{
     display: flex;
@@ -688,8 +689,8 @@ box-shadow:0px 4px 30px #dfd5ff;
 }
 
 .ft11{
-    height: 300px;
-    width: 65%;
+    height: 270px;
+    width: 95%;
     margin-left: 17px;
 }
 
@@ -751,21 +752,35 @@ box-shadow:0px 4px 30px #dfd5ff;
 }
 
 .ft12{
-    height: 300px;
-    width: 35%;
+    height: 156.5px;
+    width: 20%;
     text-align: left;
-    display: inline-block;
+    display: inline-flex;
+    margin-top: 63px;
+    position: relative;
+    float: left;
 }
 
-.ft12 img{
-    height: 142px;
-    width: auto;
-    margin-right: 40px;
-    margin-top: 65px;
-    padding: 0px;
-    display: block;
-    float: right;
+
+.ft12 h5{
+    font-size: 0.65rem;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: font6;
+    margin: 0px;
 }
+
+
+.ft12 h6{
+    font-family: font4;
+    font-size: 1.05rem;
+    margin: 0px;
+    line-height: 20.1px;
+    color: #a9a9a9;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
 
 
 /* section 2 */
@@ -795,13 +810,14 @@ box-shadow:0px 4px 30px #dfd5ff;
     text-shadow: 0px 0px 20px #fff180;
 }
 
+
 .ft22{
     height: 150px;
     width: 170px;
     display: flex;
     margin: 0 auto;
     margin-top: 0px;
-    padding: 0px; 
+    padding: 0px;
 }
 
 .ft22m{
@@ -813,6 +829,7 @@ box-shadow:0px 4px 30px #dfd5ff;
     font-family: font7;
     text-decoration: none;
     text-align: right;
+    margin-left: 0px;
     font-size: 16px;
     margin-top: 35px;
     padding: 0px;
@@ -820,8 +837,14 @@ box-shadow:0px 4px 30px #dfd5ff;
 
 .ft2 a{
     text-decoration: none;
-    color: #bfffd5;
+    --angof: 45deg;
+}
+
+.ft2 li, #ft22o1 a{
+    color: rgba(0,0,0,0.0);
     transition-duration: 0.2s;
+    background-clip: text;
+    background-image: linear-gradient(var(--angof), #00ffab,#6ae0ff);
 }
 
 .ft2 a:hover{
@@ -833,17 +856,74 @@ box-shadow:0px 4px 30px #dfd5ff;
     width: 50px;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    font-family: font9;
+    justify-content: center;
+
 }
 
-.ft22n img{
-    height: 140px;
-    width: auto;
-    margin: ;
-    padding: 0px;
+
+.ft22n{
+    
 }
+
+
+.ft22n1{
+    width: 10px;
+    color: #666666;
+    font-size: 13px;
+    font-family: font11;
+    font-weight: 450;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin: 0px 0px;
+}
+
+.ft22n2{
+    color: #666666;
+    font-size: 9px;
+    font-family: font11;
+    font-weight: 450;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin: 0px 0px;
+    position: relative;
+}
+
+.ft22n2::before, .ft22n2::after{
+    content: '';
+    height: 40px;
+    width: 2px;
+    background-color: #e0e0e0;
+    position: absolute;
+    right: 40%;
+    border-radius: 5px;
+}
+
+.ft22n2::before{
+    top: 6px;
+}
+
+.ft22n2::after{
+    bottom: 6px;
+}
+
+
+.ft22n3{
+    width:10px;
+    color: #666666;
+    font-size: 10.8px;
+    font-family: font11;
+    font-weight: 450;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin: 0px;
+    margin-left: -3px;
+}
+
 
 .ft22o{
-
+    
 }
 
 #ft22o1{
@@ -851,6 +931,7 @@ box-shadow:0px 4px 30px #dfd5ff;
     font-family: font7;
     text-decoration: none;
     text-align: left;
+    margin-right: 0px;
     font-size: 16px;
     margin-top: 35px;
     padding: 0px;
@@ -858,8 +939,7 @@ box-shadow:0px 4px 30px #dfd5ff;
 
 #ft22o1 a{
     text-decoration: none;
-    color: #bfffd5;
-    transition-duration: 0.2s;
+    --angof: 225deg;
 }
 
 #ft22o1 a:hover{
@@ -1365,6 +1445,9 @@ img {
 
 /* section 1 */
 
+    .ft11{
+    width: 70%;
+    }
 
 .ft12 img{
     margin-left: 20px;
