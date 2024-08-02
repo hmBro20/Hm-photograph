@@ -1633,6 +1633,18 @@ h6::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::s
     width: 226px;
 }
 
+    footer{
+    background: linear-gradient(270deg,#000000cd,#474747a5);
+}
+
+.ftrsect{
+    background-image: url('hd.jpg');
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
 
 
 }
