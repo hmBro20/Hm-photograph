@@ -1080,6 +1080,13 @@ img {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
+h6::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, span::selection, p::selection{
+    color: orangered;
+    background: linear-gradient(90deg, red, blue);
+}
+
+
+
 @media(max-width:768px){
    .header{
        position: fixed;
