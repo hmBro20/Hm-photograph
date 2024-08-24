@@ -50,6 +50,11 @@ body{
 }
 
 @font-face  {
+    font-family: 'font10';
+    src: url('Rampirodemo-517JG.ttf');
+}
+
+@font-face  {
     font-family: 'font11';
     src: url('HappyLucky-gxnZP.ttf');
 }
@@ -310,7 +315,61 @@ img{
 
 /* Section 1 */
 
-.sec1{
+.sec-1{
+    height: 200px;
+    width: 80%;
+    padding-top: 120px;
+    text-align: center;
+    margin: 0 auto;
+    background: ;
+    border-radius: px;
+    border-bottom: 1px magenta solid;
+    margin-bottom: 30px;
+}
+
+
+.sec-1 h2{
+    margin: 10px 50px;
+    font-family: font2;
+    font-weight: 300;
+    font-size: 4rem;
+    color: transparent;
+    background-image: url("helo.gif");
+    background-clip: ;
+    background-size: 20%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    animation: wm 8s ease infinite;
+}
+
+/* @keyframes wcm {
+    0%{background-position: 0% 50%;}
+    50%{background-position: 50% 50%;}
+    100%{background-position: 0% 50%;}
+} */
+
+
+
+.sec-1 h6{
+    margin: 10px 5px;
+    font-size: 1rem;
+    font-family: font9;
+    
+}
+
+.sec-1 h6 span{
+    color: transparent;
+    background-image: linear-gradient(90deg,#ff009d,#6500ff,#2600ff);
+    background-clip: text;
+}
+
+.sec-1 p{
+    margin: 10px 15px;
+    font-size: 1rem;
+    font-family: font10;
+}
+
+/* .sec1{
     height: 300px;
     width: 100%;
     text-align: center;
@@ -346,7 +405,7 @@ img{
     margin-top: 50px;
     color: #2f2f2f;
     font-family: font2;
-}
+} */
 
 /* section 2 */
 
@@ -1056,7 +1115,61 @@ h6::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::s
     .nev li:nth-child(4) a{
     color: #ff15e7;
 }
-   
+    .sec-1{
+    height: 200px;
+    width: 80%;
+    padding-top: 120px;
+    text-align: center;
+    margin: 0 auto;
+    background: ;
+    border-radius: px;
+    border-bottom: 1px magenta solid;
+    margin-bottom: 30px;
+}
+
+
+.sec-1 h2{
+    margin: 10px 50px;
+    font-family: font2;
+    font-weight: 300;
+    font-size: 4rem;
+    color: transparent;
+    background-image: url("helo.gif");
+    background-clip: ;
+    background-size: 20%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    animation: wm 8s ease infinite;
+}
+
+/* @keyframes wcm {
+    0%{background-position: 0% 50%;}
+    50%{background-position: 50% 50%;}
+    100%{background-position: 0% 50%;}
+} */
+
+
+
+.sec-1 h6{
+    margin: 10px 5px;
+    font-size: 1rem;
+    font-family: font9;
+    
+}
+
+.sec-1 h6 span{
+    color: transparent;
+    background-image: linear-gradient(90deg,#ff009d,#6500ff,#2600ff);
+    background-clip: text;
+}
+
+.sec-1 p{
+    margin: 10px 15px;
+    font-size: 1rem;
+    font-family: font10;
+}
+
+    
     /* section 2 */
     
     #re{
