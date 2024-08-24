@@ -1115,6 +1115,7 @@ h6::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::s
 
     .sec-1 h2{
         background-size: 160px;
+        -webkit-background-size: 160px;
     }
 
     /* section 2 */
