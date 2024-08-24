@@ -321,8 +321,6 @@ img{
     padding-top: 120px;
     text-align: center;
     margin: 0 auto;
-    background: ;
-    border-radius: px;
     border-bottom: 1px magenta solid;
     margin-bottom: 30px;
 }
@@ -335,7 +333,6 @@ img{
     font-size: 4rem;
     color: transparent;
     background-image: url("helo.gif");
-    background-clip: ;
     background-size: 20%;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -1117,7 +1114,7 @@ h6::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::s
     }
 
     .sec-1 h2{
-        background-size: 80%;
+        background-size: 280%;
     }
 
     /* section 2 */
