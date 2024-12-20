@@ -420,6 +420,11 @@ img{
     font-family: font9;
 }
 
+.sec2-h6 span{
+    color: rgba(0,0,0,0.0);
+    background-clip: text;
+    background-image: linear-gradient(90deg, red, blue);
+}
 
 .fb-1{
     width: 22.222%;
