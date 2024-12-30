@@ -676,9 +676,10 @@ box-shadow:0px 4px 30px #dfd5ff;
 }
 
 .ftrsect{
-    background-image: url('hd.jpg');
+    background-image: url('ftrnew.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 
 .fts1{
