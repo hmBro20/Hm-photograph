@@ -859,9 +859,10 @@ hr{
 }
 
 .ftrsect{
-    background-image: url('hd.jpg');
+    background-image: url('ftrnew.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
 }
 
 .fts1{
