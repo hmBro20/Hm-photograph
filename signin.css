@@ -71,6 +71,7 @@ header{
     background-repeat: no-repeat;
     background-size: 100%;
     opacity: 0.97;
+    z-index: 100;
 }
 
 .scroll{
@@ -345,6 +346,15 @@ img{
     100%{background-position: 0% 50%;}
 } */
 
+#bee{
+    text-align: center;
+    align-items: center;
+    background: transparent;
+    height: 120px;
+    width: auto;
+    margin-top: -20px;
+    z-index: 1;
+}
 
 
 .sec-1 h6{
