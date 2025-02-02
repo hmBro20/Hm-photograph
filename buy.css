@@ -32,47 +32,47 @@ body{
 
 @font-face  {
     font-family: 'font2';
-    src: url('Fonts/Restand-ZV63K.ttf');
+    src: url('Restand-ZV63K.ttf');
 }
 
 @font-face  {
     font-family: 'font3';
-    src: url('Fonts/FulboArgenta-7B9G4.ttf');
+    src: url('FulboArgenta-7B9G4.ttf');
 }
 
 @font-face  {
     font-family: 'font4';
-    src: url('Fonts/Oswald-Medium.ttf');
+    src: url('Oswald-Medium.ttf');
 }
 
 @font-face  {
     font-family: 'font6';
-    src: url('Fonts/Bebas-Regular.ttf');
+    src: url('Bebas-Regular.ttf');
 }
 
 @font-face  {
     font-family: 'font7';
-    src: url('Fonts/Breaked-nRwa0.ttf');
+    src: url('Breaked-nRwa0.ttf');
 }
 
 @font-face  {
     font-family: 'font8';
-    src: url('Fonts/HelloGraduationSans-d9enl.ttf');
+    src: url('HelloGraduationSans-d9enl.ttf');
 }
 
 @font-face  {
     font-family: 'font9';
-    src: url('Fonts/StPlatoSansDisplayDemoHeavy-gx6q1.ttf');
+    src: url('StPlatoSansDisplayDemoHeavy-gx6q1.ttf');
 }
 
 @font-face  {
     font-family: 'font10';
-    src: url('Fonts/Rampirodemo-517JG.ttf');
+    src: url('Rampirodemo-517JG.ttf');
 }
 
 @font-face  {
     font-family: 'font11';
-    src: url('Fonts/HappyLucky-gxnZP.ttf');
+    src: url('HappyLucky-gxnZP.ttf');
 }
 
 /* Header ---------------------- */
@@ -83,7 +83,7 @@ header{
     display :flex;
     position:fixed;
     top:0;
-    background-image: url('Others/header.jpg');
+    background-image: url('header.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     opacity: 0.97;
@@ -530,7 +530,7 @@ img{
     height: 450px;
     width: 87%;
     margin: 0 auto;
-    background-image: url('Others/bgb.jpeg');
+    background-image: url('bgb.jpeg');
     background-size: 100%;
     border-radius: 15px;
     background-attachment: fixed;
@@ -608,7 +608,7 @@ img{
     /* background-image: url('Others/hd.jpg');
     background-repeat: no-repeat;
     background-size: 100%; */
-    background-image: url('Others/ftrnew.jpg');
+    background-image: url('ftrnew.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
@@ -1221,7 +1221,7 @@ footer{
 }
 
 .ftrsect{
-    background-image: url('Others/hd.jpg');
+    background-image: url('hd.jpg');
     background-repeat: no-repeat;
     background-size: 170%;
     background-position: center bottom;
