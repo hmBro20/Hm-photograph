@@ -75,6 +75,13 @@ html{
 }
 
 
+/* additional */
+img {
+    -webkit-user-drag: none; /* iOS ও Mac এ ড্র্যাগ বন্ধ করবে */
+    -webkit-touch-callout: none; /* iPhone/iPad এ টাচ ধরে রাখা বন্ধ করবে */
+    user-select: none; /* টেক্সট সিলেকশন নিষিদ্ধ */
+}
+
 
 /* Header start */
 
