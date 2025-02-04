@@ -6,6 +6,27 @@
     <title>Photographis</title>
     <link rel="stylesheet" href="photos.css">
     <link rel="icon" href="icon-m.png">
+    
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    let images = document.querySelectorAll("img"); 
+    images.forEach(img => {
+        img.addEventListener("contextmenu", function(event) {
+            event.preventDefault(); // রাইট-ক্লিক ব্লক
+        });
+
+        img.addEventListener("touchstart", function(event) {
+            event.preventDefault(); // মোবাইলে টাচ করে ধরে রাখা ব্লক
+        });
+
+ img.addEventListener("dragstart", function(event) {
+    event.preventDefault(); // ড্র্যাগ ও ড্রপ ব্লক করা
+     });
+      
+    });
+});
+</script>
+    
 </head>
 <body>
     <header id="header">
