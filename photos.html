@@ -9,20 +9,28 @@
     
     <script>
 document.addEventListener("DOMContentLoaded", function() {
-    let images = document.querySelectorAll("img"); 
+    let images = document.querySelectorAll("img");
+
     images.forEach(img => {
         img.addEventListener("contextmenu", function(event) {
-            event.preventDefault(); // রাইট-ক্লিক ব্লক
+            event.preventDefault(); // রাইট-ক্লিক নিষ্ক্রিয়
         });
+
+        img.addEventListener("dragstart", function(event) {
+            event.preventDefault(); // ড্র্যাগ নিষ্ক্রিয়
+        });
+
+        let touchTimer;
 
         img.addEventListener("touchstart", function(event) {
-            event.preventDefault(); // মোবাইলে টাচ করে ধরে রাখা ব্লক
+            touchTimer = setTimeout(() => {
+                event.preventDefault(); // শুধুমাত্র লং-প্রেস হলে ডাউনলোড অপশন বন্ধ হবে
+            }, 500); // ০.৫ সেকেন্ডের বেশি টাচ করলে কাজ করবে
         });
 
- img.addEventListener("dragstart", function(event) {
-    event.preventDefault(); // ড্র্যাগ ও ড্রপ ব্লক করা
-     });
-      
+        img.addEventListener("touchend", function() {
+            clearTimeout(touchTimer); // দ্রুত ছেড়ে দিলে স্ক্রলিং ঠিক থাকবে
+        });
     });
 });
 </script>
