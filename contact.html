@@ -92,12 +92,12 @@
      <div class="sec3">
          <div id="cont-fm">
              <h6>Contact Form</h6>
-           <form>
-             <input type="text" placeholder="Your Name">
-             <input type="email" placeholder="Your Email Address">
-             <input type="text" placeholder="Your User Name">
-             <input type="text" placeholder="Why you contact with us?">
-             <textarea placeholder="Message" id="msg"></textarea>
+           <form id="myForm">
+             <input type="text" name="Name" placeholder="Your Name">
+             <input type="email" name="Email" placeholder="Your Email Address">
+             <input type="text" name="UserName" placeholder="Your User Name">
+             <input type="text" name="Cause" placeholder="Why you contact with us?">
+             <textarea placeholder="Message" name="Massage" id="msg"></textarea>
              <button type="submit">Submit</button> 
            </form>  
          </div>
@@ -176,8 +176,41 @@
          </section>
          </section>
      </footer>
-</body>
-</html>
 
+  <script>
+    const form = document.getElementById("myForm");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      // ফর্মের ডেটা সংগ্রহ
+      const formData = new FormData(form);
+      const data = {};
+      formData.forEach((value, key) => {
+        data[key] = value;
+      });
+
+      // Google Apps Script URL
+      const scriptURL = "https://script.google.com/macros/s/AKfycbzSpg7PWpTEFOSNCJZ16KN2QLv-rwqN31jFLFd8yApnQ02HUxKTibFeU4dShp9NGgUT/exec"; // Replace with your Web App URL
+
+      try {
+        // ফর্ম ডেটা সাবমিট করা
+        const response = await fetch(scriptURL, {
+          method: "POST",
+          body: JSON.stringify(data),
+          headers: { "Content-Type": "application/json" },
+        });
+        if (response.ok) {
+          alert("Form submitted successfully!");
+          form.reset();
+        } else {
+          alert("Failed to submit form.");
+        }
+      } catch (error) {
+        alert("Error: " + error.message);
+      }
+    });
+  </script>
+    
 </body>
 </html>
